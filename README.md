@@ -14,9 +14,9 @@ This package contains the accompanying code for the following paper:
 
 * \[3\] Nicolas Ballas, Li Yao, Chris Pal, Aaron Courville [Delving Deeper into Convolutional Networks for Learning Video Representations](http://arxiv.org/abs/1511.06432). International Conference of Learning Representations (ICLR) 2016. (conference track)
 
-With the default setup in `config.py`, you will be able to train a model on YouTube2Text, reproducing (in fact better than) the results corresponding to the 3rd row in Table 1 where a global temporal attention model is applied on features extracted by GoogLenet. 
+The default setup trains a model on YouTube2Text and reproduces the results corresponding to the 3rd row in Table 1. A global temporal attention is applied on features extracted by GoogLenet.
 
-Note: due to the fact that video captioning research has gradually converged to using [coco-caption](https://github.com/tylin/coco-caption) as the standard toolbox for evaluation. We intergrate this into this package. In the paper, however, a different tokenization methods was used, and the results from this package is *not* strictly comparable with the one reported in the paper. 
+Note: Since video captioning research evaluates with the standard toolbox [coco-caption](https://github.com/tylin/coco-caption), we integrate this functionality as a package. The results from the package is not comparable to one in the paper as a different tokenization method was used.
 
 ##### Please follow the instructions below to run this package
 1. Dependencies
